@@ -4,13 +4,14 @@ project:
 
 website:
   title: "Assignment 5"
-    left:
-    - text: Home
-      href: index.qmd
-    - text: CV
-      href: cv.qmd
-    - text: Contact
-      href: contact.qmd
+  navbar:
+   left:
+    - href: index.qmd
+      text: Home
+    - href: cv.qmd
+      text: CV
+    - href: contact.qmd
+      text: Contact Information
 
 format:
   html:
