@@ -32,7 +32,7 @@
     "href": "posts/short_post/index.html",
     "title": "Advice for Aspiring Economists",
     "section": "",
-    "text": "plot(cars, main = \"Speed vs Stopping Distance\", col = \"blue\", pch = 19)\n\n\n\n\n\n\n\n\n\n\n\n\nCitationBibTeX citation:@online{mankiw,\n  author = {Mankiw, Greg},\n  title = {Advice for {Aspiring} {Economists}},\n  url = {https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMankiw, Greg. n.d. “Advice for Aspiring Economists.” https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html."
+    "text": "years &lt;- 2000:2023 inflation &lt;- cumsum(runif(length(years), -0.5, 0.5)) + 2\nplot( years, inflation, type = “o”, main = “Inflation Rates Over Time”, xlab = “Year”, ylab = “Inflation Rate (%)”, col = “green”, pch = 16\n\n\n\n\nCitationBibTeX citation:@online{mankiw,\n  author = {Mankiw, Greg},\n  title = {Advice for {Aspiring} {Economists}},\n  url = {https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMankiw, Greg. n.d. “Advice for Aspiring Economists.” https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html."
   },
   {
     "objectID": "posts.html",
