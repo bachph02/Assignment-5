@@ -1,0 +1,13 @@
+---
+title: "Advice for Aspiring Economists"
+description: "What should a economics student do during the start of their journey?"
+author: 
+ - name: Greg Mankiw
+ - affiliation: Department of Economics, Havard University
+ - affiliation_url: https://www.economics.harvard.edu/
+category: "Advice"
+citation: 
+ url: https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html
+image: life_advice.jpg
+draft: false
+---
