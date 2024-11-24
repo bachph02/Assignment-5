@@ -40,5 +40,12 @@
     "title": "My Blog",
     "section": "",
     "text": "Advice for Aspiring Economists\n\n\nWhat should a economics student do during the start of their journey?\n\n\n\nGreg Mankiw\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/YYYY-MM-DD-short-post-description/index.html",
+    "href": "posts/YYYY-MM-DD-short-post-description/index.html",
+    "title": "Advice for Aspiring Economists",
+    "section": "",
+    "text": "years &lt;- 2000:2023\ninflation &lt;- cumsum(runif(length(years), -0.5, 0.5)) + 2\n\nplot(years, inflation, type = \"o\", \n     main = \"Inflation Rates Over Time\", \n     xlab = \"Year\", \n     ylab = \"Inflation Rate (%)\", \n     col = \"green\", \n     pch = 16, \n     lwd = 2,          \n     cex = 1.5,        \n     col.axis = \"blue\", \n     col.lab = \"purple\", \n     xaxt = \"n\")       \n\naxis(1, at = seq(2000, 2023, by = 2), las = 2)  \n\n\n\n\n\n\n\n\n\n\n\nCitationBibTeX citation:@online{mankiw,\n  author = {Mankiw, Greg},\n  title = {Advice for {Aspiring} {Economists}},\n  url = {https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nMankiw, Greg. n.d. “Advice for Aspiring Economists.” https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html."
   }
 ]

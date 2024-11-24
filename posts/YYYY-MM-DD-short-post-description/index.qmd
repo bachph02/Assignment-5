@@ -7,7 +7,7 @@ author:
  - affiliation_url: https://www.economics.harvard.edu/
 category: "Advice"
 citation: 
- url: https://bachph02.github.io/Assignment-5/YYYY-MM-DD-short-post-description
+ url: https://gregmankiw.blogspot.com/2006/05/advice-for-aspiring-economists.html
 image: life_advice.jpg
 draft: false
 ---
