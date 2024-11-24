@@ -17,13 +17,17 @@ draft: false
 years <- 2000:2023
 inflation <- cumsum(runif(length(years), -0.5, 0.5)) + 2
 
+plot(years, inflation, type = "o", 
+     main = "Inflation Rates Over Time", 
+     xlab = "Year", 
+     ylab = "Inflation Rate (%)", 
+     col = "green", 
+     pch = 16, 
+     lwd = 2,          
+     cex = 1.5,        
+     col.axis = "blue", 
+     col.lab = "purple", 
+     xaxt = "n")       
 
-plot(
-  years, inflation,
-  type = "o",
-  main = "Inflation Rates Over Time",
-  xlab = "Year",
-  ylab = "Inflation Rate (%)",
-  col = "green",
-  pch = 16
----
+axis(1, at = seq(2000, 2023, by = 2), las = 2)  
+```
