@@ -11,3 +11,19 @@ citation:
 image: life_advice.jpg
 draft: false
 ---
+
+```{r}
+
+years <- 2000:2023
+inflation <- cumsum(runif(length(years), -0.5, 0.5)) + 2
+
+
+plot(
+  years, inflation,
+  type = "o",
+  main = "Inflation Rates Over Time",
+  xlab = "Year",
+  ylab = "Inflation Rate (%)",
+  col = "green",
+  pch = 16
+---
